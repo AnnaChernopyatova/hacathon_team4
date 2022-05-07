@@ -51,6 +51,8 @@ p, button{
     font-size: 20px;
     color: #000000;
     align-content: space-between;
+    width: 80vw;
+    margin-left: 5%;
 }
 
 .reason_card {
@@ -240,6 +242,8 @@ li{
     background-color: #BBD1D9;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+   
+    margin-bottom: 15px;
 }
 
 .logo-img {
