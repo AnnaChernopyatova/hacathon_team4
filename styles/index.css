@@ -156,9 +156,9 @@ p, button{
 }
 
 .carouselCard_button{
-    width: 80px;
-    height: 35px;
-    border-radius: 30px;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
     border: none;
 }
 
