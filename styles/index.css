@@ -305,4 +305,19 @@ li{
     background-size: 100% 100%;
     background-position-x: left;
 }
+.rules {
+    display: flex;
+    background-image: url(/images/card_4.jpg);
+    height: fit-content;
+    width: 80vw;
+    margin: 0 auto;
+    padding-left: 3%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
 
+.rules_item {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
