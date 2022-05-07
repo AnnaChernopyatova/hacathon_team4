@@ -137,7 +137,7 @@ p, button{
 }
 
 .carousel_header{
-    width: fit-content;
+    width: 15vw;
     margin: auto;
     margin-bottom: 4vh;
 }
