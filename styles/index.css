@@ -43,8 +43,6 @@ body {
     font-size: 20px;
     color: #000000;
     align-content: space-between;
-
-   
 }
 
 .reason_card {
@@ -96,7 +94,19 @@ body {
     align-items: center;
 
 }
+
 .card_5_text {
-    justify-content: center;
-    align-items: center;
+    padding: 10%;
+}
+.card_4_text {
+    padding: 10%;
+}
+.card_3_text {
+    padding: 10%;
+}
+.card_2_text {
+    padding: 10%;
+}
+.card_1_text {
+    padding: 10%;
 }
