@@ -110,3 +110,15 @@ body {
 .card_1_text {
     padding: 10%;
 }
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #BBD1D9;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 3vh;
+}
