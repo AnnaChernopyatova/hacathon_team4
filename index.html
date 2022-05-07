@@ -59,24 +59,24 @@
 
 
     <div class="carouselBlock">
-        <h3 class="carousel_header">Что мы меняем сегодня</h3>
+        <h2 class="carousel_header">Что мы меняем сегодня</h2>
         <div class="carousel">
             <div class="carouselCard carouselCard__left">
-                <img src="images/img1.jpg" alt="" class="carouselCard_img" id="imgLeft">
-                <h4 class="carouselCard_header" id="headerLeft">Анна Чернопятова</h4>
-                <p class="carouselCard_text" id="textLeft">Эта рудужная куртка не раз скрашивала мои хмурые дни, поэтому надеюсь, что она сможет радовать кого-то еще</p>
+                <img src="images/img3.jpg" alt="" class="carouselCard_img" id="imgLeft">
+                <h4 class="carouselCard_header" id="headerLeft">Ольга Бурасова</h4>
+                <p class="carouselCard_text" id="textLeft">Помогите избавиться от переизбытка шопперов в моем шкафу</p>
             </div>
             <button class="carouselCard_button carouselCard_button__left" onclick="change()">Не мое...</button>
             <div class="carouselCard carouselCard__central">
-                <img src="images/img2.jpg" alt="" class="carouselCard_img" id="imgCentral">
-                <h4 class="carouselCard_header" id="headerCentral">Екатерина Романова</h4>
-                <p class="carouselCard_text" id="textCentral">Отдам натуральный кожаный чехол. Вдруг у вас совпадут инициалы с моим бывшим недоумком</p>
+                <img src="images/img1.jpg" alt="" class="carouselCard_img" id="imgCentral">
+                <h4 class="carouselCard_header" id="headerCentral">Анна Чернопятова</h4>
+                <p class="carouselCard_text" id="textCentral">Эта рудужная куртка не раз скрашивала мои хмурые дни, поэтому надеюсь, что она сможет радовать кого-то еще</p>
             </div>
             <button class="carouselCard_button carouselCard_button__right" onclick="change()">Лайк!</button>
             <div class="carouselCard carouselCard__right">
-                <img src="images/img3.jpg" alt="" class="carouselCard_img" id="imgRight">
-                <h4 class="carouselCard_header" id="headerRight">Ольга Бурасова</h4>
-                <p class="carouselCard_text" id="textRight">Помогите избавиться от переизбытка шопперов в моем шкафу</p>
+                <img src="images/img2.jpg" alt="" class="carouselCard_img" id="imgRight">
+                <h4 class="carouselCard_header" id="headerRight">Екатерина Романова</h4>
+                <p class="carouselCard_text" id="textRight">Отдам натуральный кожаный чехол. Вдруг у вас совпадут инициалы с моим бывшим недоумком</p>
             </div>
         </div>
     </div>
@@ -86,9 +86,9 @@
     const images = ["images/img1.jpg", "images/img2.jpg", "images/img3.jpg"];
     const names = ["Анна Чернопятова", "Екатерина Романова", "Ольга Бурасова"];
     const descriptions = ["Эта рудужная куртка не раз скрашивала мои хмурые дни, поэтому надеюсь, что она сможет радовать кого-то еще", "Отдам натуральный кожаный чехол. Вдруг у вас совпадут инициалы с моим бывшим недоумком", "Помогите избавиться от переизбытка шопперов в моем шкафу", ]
-    let leftPicture = 0;
-    let centralPicture = 1;
-    let rightPicture = 2;
+    let leftPicture = 2;
+    let centralPicture = 0;
+    let rightPicture = 1;
     
 
     function change() {
