@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="carouselBlock">
+        <h3 class="carousel_header">Что мы меняем сегодня</h3>
+        <div class="carousel">
+            <div class="carouselCard carouselCard__left">
+                <img src="images/img1.jpg" alt="" class="carouselCard_img" id="imgLeft">
+                <h4 class="carouselCard_header" id="headerLeft">Анна Чернопятова</h4>
+                <p class="carouselCard_text" id="textLeft">Эта рудужная куртка не раз скрашивала мои хмурые дни, поэтому надеюсь, что она сможет радовать кого-то еще</p>
+            </div>
+            <button class="carouselCard_button carouselCard_button__left" onclick="change()">Не мое...</button>
+            <div class="carouselCard carouselCard__central">
+                <img src="images/img2.jpg" alt="" class="carouselCard_img" id="imgCentral">
+                <h4 class="carouselCard_header" id="headerCentral">Екатерина Романова</h4>
+                <p class="carouselCard_text" id="textCentral">Отдам натуральный кожаный чехол. Вдруг у вас совпадут инициалы с моим бывшим недоумком</p>
+            </div>
+            <button class="carouselCard_button carouselCard_button__right" onclick="change()">Лайк!</button>
+            <div class="carouselCard carouselCard__right">
+                <img src="images/img3.jpg" alt="" class="carouselCard_img" id="imgRight">
+                <h4 class="carouselCard_header" id="headerRight">Ольга Бурасова</h4>
+                <p class="carouselCard_text" id="textRight">Помогите избавиться от переизбытка шопперов в моем шкафу</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const images = ["images/img1.jpg", "images/img2.jpg", "images/img3.jpg"];
+        const names = ["Анна Чернопятова", "Екатерина Романова", "Ольга Бурасова"];
+        const descriptions = ["Эта рудужная куртка не раз скрашивала мои хмурые дни, поэтому надеюсь, что она сможет радовать кого-то еще", "Отдам натуральный кожаный чехол. Вдруг у вас совпадут инициалы с моим бывшим недоумком", "Помогите избавиться от переизбытка шопперов в моем шкафу", ]
+        let leftPicture = 0;
+        let centralPicture = 1;
+        let rightPicture = 2;
+        
+
+        function change() {
+            const img1 = document.querySelector("#imgLeft");
+            const img2 = document.querySelector("#imgCentral");
+            const img3 = document.querySelector("#imgRight");
+
+            const header1 = document.querySelector("#headerLeft");
+            const header2 = document.querySelector("#headerCentral");
+            const header3 = document.querySelector("#headerRight");
+
+            const text1 = document.querySelector("#textLeft");
+            const text2 = document.querySelector("#textCentral");
+            const text3 = document.querySelector("#textRight");
+            debugger;
+                leftPicture++;
+                centralPicture++;
+                rightPicture++;
+                if(rightPicture===images.length){
+                    rightPicture = 0;
+                } else if (centralPicture === images.length) {
+                    centralPicture = 0;
+                } else if (leftPicture === images.length) {
+                    leftPicture = 0;
+                }
+
+                img1.src = images[leftPicture];
+                header1.innerHTML = names[leftPicture];
+                text1.innerHTML = descriptions[leftPicture]
+
+                img2.src = images[centralPicture];
+                header2.innerHTML = names[centralPicture];
+                text2.innerHTML = descriptions[centralPicture]
+
+                img3.src = images[rightPicture];
+                header3.innerHTML = names[rightPicture];
+                text3.innerHTML = descriptions[rightPicture]
+        }
+    </script>
 </body>
 </html>
