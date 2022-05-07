@@ -1,3 +1,118 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-1 {
+    display: flex;
+    padding: 3%;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+    border: 5px rebeccapurple;
+}
+
+.welcome {
+    padding: 48px 24px 52px 24px;
+    background: #BBD1D9;
+}
+
+.welcome__title1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 36px;
+    max-width: 85%;
+}
+
+.welcome__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    justify-content: center;
+    width: 80vw;
+    font-family: 'Playfair Display', regular;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    align-content: space-between;
+}
+
+.reason_card {
+    display: flex;
+    align-content: space-between;
+}
+
+.card_1 {
+    background-image: url(/images/card_1.jpg);
+    width: 20vw;
+    height: 10vw;
+    border-radius: 10px;
+    margin: 1%;
+
+}
+
+.card_2 {
+    background-image: url(/images/card_2.jpg);
+    width: 20vw;
+    height: 10vw;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.card_3 {
+    background-image: url(/images/card_3.jpg);
+    width: 20vw;
+    height: 10vw;
+    border-radius: 10px;
+    margin: 1%;
+
+}
+
+.card_4 {
+    background-image: url(/images/card_4.jpg);
+    width: 20vw;
+    height: 10vw;
+    border-radius: 10px;
+    margin: 1%;
+
+}
+
+.card_5 {
+    background-image: url(/images/card_5.jpg);
+    width: 20vw;
+    height: 10vw;
+    border-radius: 10px;
+    margin: 1%;
+    align-items: center;
+
+}
+
+.card_5_text {
+    padding: 10%;
+}
+.card_4_text {
+    padding: 10%;
+}
+.card_3_text {
+    padding: 10%;
+}
+.card_2_text {
+    padding: 10%;
+}
+.card_1_text {
+    padding: 10%;
+}
+
+
+
 .carouselBlock{
     height: 70vh;
     margin: auto;
