@@ -23,6 +23,16 @@
 </head>
 <body>
 <main>
+    <div class="header">
+        <div class="header_container">
+            <ul>
+                <li><a href="...">О Swap</a></li>
+                <li><a href="...">Новости</a></li>
+                <li><a href="...">Меняем</a></li>
+                <li><a href="...">Встречаемся</a></li>
+            </ul>
+        </div>
+    </div>
     <div class="container-1">
         <div class="welcome">
             <div class="welcome__title1">
@@ -56,7 +66,95 @@
             </div>
         </div>
     </div>
-<footer>
+
+    <div class="container">
+        <div class="container_event">
+            <div class="container_event__card">
+                <div class="card_title">
+                    <h3 class="title">25 мая</h3>
+                </div>
+                <div class="card_image">
+                    <img class="photo" src="/images/photo1.jpg" alt="photo1">
+                </div>
+                <div class="card_subtitle">
+                    <span>Кожевенная линия, д. 40, Севкабель Порт</span>
+                    <span>19:00 мск</span>
+                    <span>Обмен летними вещами</span>
+                </div>
+            </div>
+            <div class="container_event__card">
+                <div class="card_title">
+                    <h3 class="title">28 мая</h3>
+                </div>
+                <div class="card_image">
+                    <img class="photo" src="/images/photo2.jpg" alt="photo2">
+                </div>
+                <div class="card_subtitle">
+                    <span>пр. Лиговский, д. 74, Лофт проект Этажи</span>
+                    <span>20:00 мск</span>
+                    <span>SWAP-party с видом на потрясающий закат, крутыми вещами и бокалом игристого</span>
+                </div>
+            </div>
+            <div class="container_event__card">
+                <div class="card_title">
+                    <h3 class="title">30 мая</h3>
+                </div>
+                <div class="card_image">
+                    <img class="photo" src="/images/photo3.jpg" alt="photo3">
+                </div>
+                <div class="card_subtitle">
+                    <span>наб. Обводного канала, д. 74, лит. А, Люмьер-холл</span>
+                    <span>18:00 мск</span>
+                    <span>Уютная вечеринка не только для поиска новых вещей, но и для крутых знакомств</span>
+                </div>
+            </div>
+            <div class="container_event__card">
+                <div class="card_title">
+                    <h3 class="title">31 мая</h3>
+                </div>
+                <div class="card_image">
+                    <img class="photo" src="/images/photo4.jpg" alt="photo3">
+                </div>
+                <div class="card_subtitle">
+                    <span>Кожевенная линия, д. 30, Пространство К-30</span>
+                    <span>17:00 мск</span>
+                    <span>Крутая swap-выставка, где вы сможете найти для себя что-то необычное</span>
+                </div>
+            </div>
+            <div class="container_button">
+                <button class="button">
+                    <div class="text">
+                        Узнать
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="carouselBlock">
+        <h3 class="carousel_header">Что мы меняем сегодня</h3>
+        <div class="carousel">
+            <div class="carouselCard carouselCard__left">
+                <img src="images/img1.jpg" alt="" class="carouselCard_img" id="imgLeft">
+                <h4 class="carouselCard_header" id="headerLeft">Анна Чернопятова</h4>
+                <p class="carouselCard_text" id="textLeft">Эта рудужная куртка не раз скрашивала мои хмурые дни, поэтому надеюсь, что она сможет радовать кого-то еще</p>
+            </div>
+            <button class="carouselCard_button carouselCard_button__left" onclick="change()">Не мое...</button>
+            <div class="carouselCard carouselCard__central">
+                <img src="images/img2.jpg" alt="" class="carouselCard_img" id="imgCentral">
+                <h4 class="carouselCard_header" id="headerCentral">Екатерина Романова</h4>
+                <p class="carouselCard_text" id="textCentral">Отдам натуральный кожаный чехол. Вдруг у вас совпадут инициалы с моим бывшим недоумком</p>
+            </div>
+            <button class="carouselCard_button carouselCard_button__right" onclick="change()">Лайк!</button>
+            <div class="carouselCard carouselCard__right">
+                <img src="images/img3.jpg" alt="" class="carouselCard_img" id="imgRight">
+                <h4 class="carouselCard_header" id="headerRight">Ольга Бурасова</h4>
+                <p class="carouselCard_text" id="textRight">Помогите избавиться от переизбытка шопперов в моем шкафу</p>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="footer_inner">
             <nav class="footer__nav">
