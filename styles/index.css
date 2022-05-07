@@ -126,22 +126,13 @@ p, button{
 .card_1_text {
     padding: 10%;
 }
-
-
-
-.carouselBlock{
-    height: 70vh;
-    margin: auto;
-}
-
-.carousel{
-    height: 80%;
-    width: 97vw;
+.footer_inner{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #BBD1D9;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 .carousel_header{
@@ -320,4 +311,6 @@ li{
 .text:hover{
     background-size: 100% 100%;
     background-position-x: left;
+.logo-img {
+    height: 3vh;
 }
