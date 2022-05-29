@@ -1,3 +1,2 @@
 # hacathon_team4
-Проект по обмену вещами - Swap
-Посмотреть реализацию можно [ссылкe](https://AnnaChernopyatova.github.io)
+Посмотреть реализацию можно [ссылкe](https://hacathon_team4.github.io)
