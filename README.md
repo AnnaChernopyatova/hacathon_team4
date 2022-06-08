@@ -1,2 +1,2 @@
 # hacathon_team4
-Посмотреть реализацию можно [ссылкe](https://hacathon_team4.github.io)
+Посмотреть проект по [ссылкe](https://AnnaChernopyatova.github.io/hacathon_team4/)
